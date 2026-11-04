@@ -1,0 +1,22 @@
+import ProfileCard from './ProfileCard';
+
+<ProfileCard
+  name="Javi A. Torres"
+  title="Software Engineer"
+  handle="javicodes"
+  status="Online"
+  contactText="Contact"
+  avatarUrl="/path/to/portrait.png"
+  iconUrl="/assets/demo/iconpattern.png"
+  holo={0.8}
+  glare={0.5}
+  tiltStrength={12}
+  parallax={8}
+  radius={16}
+  enableTilt
+  intro
+  showUserInfo
+  enableMobileTilt={false}
+  theme="dark"
+  onContactClick={() => console.log('Contact clicked')}
+/>
